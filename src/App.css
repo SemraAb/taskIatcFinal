@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.trend {
+  width: 800px;
+  margin: 0 auto;
+}
+.header a {
+  color: white;
+}
+.logo a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.home {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  color: white;
+}
+
+.home img {
+  margin: 0 auto;
+}
+
+.home h1 {
+  margin-bottom: 40px;
+}
+.crypto input {
+  height: 40px;
+}
+.crypto-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.crypto-item {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+}
+.search-bttn{
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+}
+
+  .search-bttn:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+
+.crypto-item img {
+  width: 40px;
+  height: 40px;
+}
+.App-link {
+  color: #61dafb;
+}
+.products-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .product {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+  }
+  .product img {
+  width: 40px;
+  height: 40px;
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
